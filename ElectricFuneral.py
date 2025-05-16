@@ -75,7 +75,7 @@ class ElectricFuneral(Scene):
 
         #Write the equation for the potencial
         formula = MathTex(
-            r"U = k \cdot \frac{q^2}{x} + K \cdot \frac{q^2}{x \cdot \sqrt{2}}", font_size=25
+            r"U = k \cdot \frac{q^2}{x} + k \cdot \frac{q^2}{x \cdot \sqrt{2}}", font_size=25
         )
         
         #Plot everything in the same place at the same time on the top of the screen
